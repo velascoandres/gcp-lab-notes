@@ -73,3 +73,11 @@ Ejectuamos la aplicacion:
         npm install
         node list-gce-instances.js
 ```    
+
+
+
+### Buckets
+
+``` shell script
+gsutil mb gs://$DEVSHELL_PROJECT_ID-media
+```
